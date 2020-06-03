@@ -1,0 +1,175 @@
+        /*estilos generales de main*/
+        
+        html {
+            box-sizing: border-box;
+            font-size: 62.5%;
+            background-image: linear-gradient(45deg, rgb(182, 179, 179), white);
+        }
+        
+        main {
+            margin: 0 auto;
+            width: 90%;
+        }
+        
+        body {
+            font-size: 1.8rem;
+            /* font-size: 18px; */
+        }
+        
+        section {
+            margin: 20px 0;
+            
+        }
+        
+        .quienes-somos {
+            background-image: $s-gradient;
+            display: block;
+            margin: 3% auto;
+            border: 1px dotted black;
+            width: 80%;
+            text-align: justify;
+            font-size: rem;
+            p {
+                margin: 3%;
+            }
+            h2 {
+                margin: 1%;
+                text-align: center;
+                text-decoration: underline;
+            }
+        }
+        
+        .imagenes-portafolio {
+            display: inline-block;
+            text-align: center;
+            margin: 1%;
+           
+            img {
+                width: 30%;
+                height: 20rem;
+                border-radius: 50%;
+            }
+        }
+        
+        .portafolio-EquipoTrabajo {
+            
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+            margin: 1rem;
+            h2 {
+                text-decoration: underline;
+                text-align: center;
+                margin: 2rem;
+            }
+            section {
+                margin: 5%;
+                padding: 2%;
+                border: 1px dotted black;
+                text-align: center;
+                ul {
+                    list-style: none
+                }
+            }
+        }
+        
+        .contact {
+            
+            display: block;
+            margin: auto;
+            padding: 3%;
+            
+            h2 {
+                text-align: center;
+            }
+            form {
+                border: 2px dotted black;
+                padding: 2%;
+                width: 30%;
+                margin: 0 auto;
+                font-weight: bold;
+            }
+            input {
+                width: 80%;
+                display: block;
+                margin: 2%;
+                padding: 2%;
+            
+            }
+            button {
+                margin: auto;
+                display: block;
+                
+            }
+        }
+        
+        footer p{
+            margin: 3%;
+            text-align: center;
+            
+        }
+        
+        .innovacion,
+        .noticias{
+            background-image: $s-gradient;
+            display: block;
+            margin: auto;
+            border: 1px dotted black;
+            padding: 3%;
+           
+           
+        }
+
+        
+        .nuevos-productos {
+            background-image: $s-gradient;
+            display: block;
+            margin: auto;
+            border: 1px dotted black;
+            padding: 3%;
+            h2 {
+                font-size: 4rem;
+                font-weight: bold;
+                text-align: just;
+                display: inline;
+            }
+            p {
+                text-align: justify;
+                margin: 3%;
+                span {
+                    font-size: 3rem;
+                    text-decoration: underline;
+                }
+            }
+            img {
+                display: block;
+                margin: auto;
+                border: 1px solid black;
+                width: 80%;
+            }
+        }
+        
+        .edificios-inteligentes {
+            background-image: $s-gradient;
+            display: block;
+            margin: auto;
+            border: 1px dotted black;
+            padding: 3%;
+    
+           p span {
+                font-size: 3rem;
+                text-decoration: underline;
+                text-align: justify;
+            
+            }
+            p {
+                text-align: justify;
+                margin: 3%;
+                
+            }
+        }
+        h2{
+            text-align: center;
+            margin: 2%;
+
+        }

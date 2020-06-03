@@ -1,0 +1,34 @@
+/*importacion de archivos parciales*/
+
+
+/*Variables*/
+
+@import 'variable';
+
+/*Estilos generales*/
+
+@import 'baserules';
+
+/*Header*/
+
+@import 'header';
+
+/*Main*/
+
+@import 'main';
+
+/* Imagenes */
+
+@import "imagenes";
+
+/* Noticias */
+
+@import "noticias";
+
+/* Innovacion */
+
+@import "innovacion";
+
+/* Media queries */
+
+@import 'mediaqueries';

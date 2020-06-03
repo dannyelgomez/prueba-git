@@ -1,0 +1,473 @@
+@charset "UTF-8";
+/*importacion de archivos parciales*/
+/*Variables*/
+/*Estilos generales*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+/*Header*/
+header {
+  width: 90%;
+  background: #fff;
+}
+
+header .logo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header .navegador {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header .navegador nav {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(white), to(#c4c4c4));
+  background-image: linear-gradient(bottom, white, #c4c4c4);
+  display: inline-block;
+  width: 100%;
+}
+
+header .navegador nav li {
+  display: inline-block;
+  border: 1px black solid;
+  border-radius: 10%;
+  padding: 1%;
+  list-style: none;
+  color: #000;
+  font-size: 2rem;
+}
+
+header .navegador nav li:hover {
+  background-color: #e0e0e0;
+}
+
+/*Main*/
+/*estilos generales de main*/
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  background-image: linear-gradient(45deg, #b6b3b3, white);
+}
+
+main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+body {
+  font-size: 1.8rem;
+  /* font-size: 18px; */
+}
+
+section {
+  margin: 20px 0;
+}
+
+.quienes-somos {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 214, 226, 0.3)), to(white));
+  background-image: linear-gradient(top, rgba(159, 214, 226, 0.3), white);
+  display: block;
+  margin: 3% auto;
+  border: 1px dotted black;
+  width: 80%;
+  text-align: justify;
+  font-size: rem;
+}
+
+.quienes-somos p {
+  margin: 3%;
+}
+
+.quienes-somos h2 {
+  margin: 1%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.imagenes-portafolio {
+  display: inline-block;
+  text-align: center;
+  margin: 1%;
+}
+
+.imagenes-portafolio img {
+  width: 30%;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.portafolio-EquipoTrabajo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.portafolio-EquipoTrabajo h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin: 2rem;
+}
+
+.portafolio-EquipoTrabajo section {
+  margin: 5%;
+  padding: 2%;
+  border: 1px dotted black;
+  text-align: center;
+}
+
+.portafolio-EquipoTrabajo section ul {
+  list-style: none;
+}
+
+.contact {
+  display: block;
+  margin: auto;
+  padding: 3%;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact form {
+  border: 2px dotted black;
+  padding: 2%;
+  width: 30%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.contact input {
+  width: 80%;
+  display: block;
+  margin: 2%;
+  padding: 2%;
+}
+
+.contact button {
+  margin: auto;
+  display: block;
+}
+
+footer p {
+  margin: 3%;
+  text-align: center;
+}
+
+.innovacion,
+.noticias {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 214, 226, 0.3)), to(white));
+  background-image: linear-gradient(top, rgba(159, 214, 226, 0.3), white);
+  display: block;
+  margin: auto;
+  border: 1px dotted black;
+  padding: 3%;
+}
+
+.nuevos-productos {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 214, 226, 0.3)), to(white));
+  background-image: linear-gradient(top, rgba(159, 214, 226, 0.3), white);
+  display: block;
+  margin: auto;
+  border: 1px dotted black;
+  padding: 3%;
+}
+
+.nuevos-productos h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: just;
+  display: inline;
+}
+
+.nuevos-productos p {
+  text-align: justify;
+  margin: 3%;
+}
+
+.nuevos-productos p span {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.nuevos-productos img {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  width: 80%;
+}
+
+.edificios-inteligentes {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(159, 214, 226, 0.3)), to(white));
+  background-image: linear-gradient(top, rgba(159, 214, 226, 0.3), white);
+  display: block;
+  margin: auto;
+  border: 1px dotted black;
+  padding: 3%;
+}
+
+.edificios-inteligentes p span {
+  font-size: 3rem;
+  text-decoration: underline;
+  text-align: justify;
+}
+
+.edificios-inteligentes p {
+  text-align: justify;
+  margin: 3%;
+}
+
+h2 {
+  text-align: center;
+  margin: 2%;
+}
+
+/* Imagenes */
+.img-s {
+  text-align: center;
+}
+
+.img-s img {
+  /* height: 100px;
+        width: 100px; */
+  display: block;
+  width: 100%;
+  height: 20rem;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+/* Noticias */
+div.noticias {
+  display: block;
+  /* column-count: 3; */
+}
+
+div.noticias h2 {
+  text-align: center;
+  color: #050505;
+}
+
+div.noticias p {
+  text-align: justify;
+}
+
+/* Innovacion */
+div.innovacion {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+div.innovacion img {
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+  border: 1px solid black;
+}
+
+div.innovacion h2 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div.innovacion h2:hover {
+  font-weight: bold;
+}
+
+div.innovacion p {
+  text-align: justify;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .imagenes-portafolio {
+    display: block;
+    text-align: center;
+  }
+  .imagenes-portafolio img {
+    width: 70%;
+  }
+  .quienes-somos h2 {
+    font-size: 2rem;
+  }
+  .quienes-somos p {
+    font-size: 1.5rem;
+  }
+  .portafolio-EquipoTrabajo {
+    display: block;
+  }
+  .portafolio-EquipoTrabajo h2 {
+    font-size: 2rem;
+  }
+  .portafolio-EquipoTrabajo li {
+    font-size: 2rem;
+  }
+  .contact h2 {
+    font-size: 3rem;
+  }
+  .contact label {
+    font-size: 2rem;
+  }
+  .contact type {
+    font-size: 2rem;
+  }
+  .contact form {
+    width: 50%;
+  }
+}
+
+/* Mq Imagenes */
+@media only screen and (min-width: 480px) {
+  .img-s {
+    display: inline-block;
+    text-align: center;
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  .img-s img {
+    width: 100%;
+    margin: 2%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .img-s {
+    display: inline-block;
+    text-align: center;
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+  .img-s img {
+    width: 100%;
+    margin: 2%;
+  }
+}
+
+/* Mq Noticias*/
+@media only screen and (min-width: 480px) {
+  div.noticias {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  div.noticias h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  div.noticias p {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.noticias {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+  div.noticias h2 {
+    text-align: center;
+  }
+  div.noticias p {
+    text-align: justify;
+  }
+}
+
+/* Mq Innovación */
+@media only screen and (min-width: 480px) {
+  div.innovacion {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  .p {
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.innovacion {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+/*Nuevos productos*/
+@media only screen and (max-width: 480px) {
+  div.nuevos-productos {
+    -webkit-column-count: 1;
+            column-count: 1;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  div.nuevos-productos {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.nuevos-productos {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+}
+
+/* MQ Edificios-inteligentes */
+@media only screen and (min-width: 480px) {
+  div.edificios-inteligentes {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  div.edificios-inteligentes {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+}
+
+/*html*/
+@media only screen and (min-width: 480px) {
+  html {
+    background-image: url(https://static01.nyt.com/images/2017/11/11/business/11WIND-02/10WIND2-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    background-image: url(https://www.generamos.co/wp-content/uploads/2018/01/eolica.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+/*# sourceMappingURL=style.css.map */

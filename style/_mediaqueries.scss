@@ -1,0 +1,176 @@
+@media screen and (max-width: 768px) {
+    .imagenes-portafolio {
+        display: block;
+        text-align: center;
+        img {
+            width: 70%;
+        }
+    }
+    .quienes-somos {
+        h2 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+    }
+    .portafolio-EquipoTrabajo {
+        display: block;
+        h2 {
+            font-size: 2rem;
+        }
+        li {
+            font-size: 2rem;
+        }
+    }
+    .contact {
+        h2 {
+            font-size: 3rem;
+        }
+        label {
+            font-size: 2rem;
+        }
+        type {
+            font-size: 2rem;
+        }
+        form {
+            width: 50%;
+        }
+    }
+}
+
+
+/* Mq Imagenes */
+
+@media only screen and (min-width: 480px) {
+    .img-s {
+        display: inline-block;
+        text-align: center;
+        column-count: 2;
+        img {
+            width: 100%;
+            margin: 2%;
+        }
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .img-s {
+        display: inline-block;
+        text-align: center;
+        column-count: 3;
+        img {
+            width: 100%;
+            margin: 2%;
+        }
+    }
+}
+
+
+/* Mq Noticias*/
+
+@media only screen and (min-width: 480px) {
+    div.noticias {
+        column-count: 2;
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        p {
+            text-align: justify;  
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div.noticias {
+        column-count: 3;
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+    }
+}
+
+
+/* Mq Innovación */
+
+@media only screen and (min-width: 480px) {
+    div.innovacion {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+    .p{
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div.innovacion {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+    p{
+        text-align: justify;
+    }
+}
+
+
+/*Nuevos productos*/
+
+@media only screen and (max-width: 480px) {
+    div.nuevos-productos {
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    div.nuevos-productos {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div.nuevos-productos {
+        column-count: 3;
+    }
+}
+
+
+/* MQ Edificios-inteligentes */
+
+@media only screen and (min-width: 480px) {
+    div.edificios-inteligentes {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    div.edificios-inteligentes {
+        column-count: 3;
+    }
+}
+
+/*html*/
+
+@media only screen and (min-width: 480px) {
+    html {
+    background-image: url(https://static01.nyt.com/images/2017/11/11/business/11WIND-02/10WIND2-articleLarge.jpg?quality=75&auto=webp&disable=upscale);
+    background-size: cover;
+    background-attachment: fixed;}
+}
+    
+
+
+
+@media only screen and (min-width: 768px) {
+   html {
+        background-image: url(https://www.generamos.co/wp-content/uploads/2018/01/eolica.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+   }
+}
+   

@@ -1,0 +1,44 @@
+header {
+    
+    width: 100%;
+    background: $bg;
+    
+    .logo{
+        display:block;
+        margin: auto;
+        width: 100%;
+        align-content: center;
+        
+    }
+    
+    .navegador{
+        
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    
+    nav {
+        background-image: linear-gradient(bottom, white, rgb(196, 196, 196));
+        display: inline-block;
+        width: 100%;
+        
+        
+    
+        li {
+            display: inline-block;
+            border: 1px black solid;
+            border-radius: 10%;
+            padding: 1%;
+            list-style: none;
+            color: #000;
+            font-size: 2rem;
+            &:hover {
+                
+                background-color: rgb(224, 224, 224);
+              
+            }
+        }
+    }
+}
+}
